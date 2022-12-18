@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1 .title {
+  display: block;
+  line-height: 1;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.movie-filter-form {
+  margin: 10px 0 0px 5px;
+}
+.movie-page-meta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.custom-select:focus {
+  border-color: #2d303d;
+  box-shadow: none;
+}
+.movie-filter-form select {
+    padding: 11px 35px 11px 25px;
+    outline: none;
+    min-height: 44px;
+    box-shadow: none;
+    background: #20212b url(https://movflxx.netlify.app/img/images/nw_selarw.png) no-repeat scroll 97.5% center;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #e3dfdf;
+    border: 2px solid #2d303d;
+    margin-bottom: 0;
+    transition: none !important;
+    appearance: none;
+}
+.tr-movie-menu2-active button {
+
+  border-radius: 50px;
+  background: #20212b;
+  font-size: 12px;
+  font-weight: 600;
+  color: #e3dfdf;
+  border: 2px solid #2d303d;
+  padding: 11px 27px;
+  margin-bottom: 0;
+  transition: none !important;
+}
+.tr-movie-menu2-active {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+margin-bottom: 40px;
+}
+
+
+.tr-movie-bg {
+background-position: top center;
+background-size: cover;
+padding: 120px 0 60px;
+}
+.tr-movie-bg2 {
+background-position: top center;
+background-size: cover;
+padding: 120px 0 120px;
+}
+.tr-movie-menu-active {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+}
+.tr-movie-menu-active button {
+border: none;
+border-radius: 4px;
+box-shadow: inset 0px 3px 7px 0px rgba(0, 0, 0, 0.77);
+background: #0b1110;
+font-size: 13px;
+text-transform: uppercase;
+font-weight: 700;
+color: #cdcaca;
+padding: 17px 25px;
+position: relative;
+margin: 0 7.5px 15px;
+}
+.tr-movie-menu2-active button {
+  margin: 10px 10px;
+}
+.tr-movie-menu-active button::before,
+.tr-movie-menu-active button::after {
+content: "";
+position: absolute;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+width: 2px;
+height: 16px;
+transition: .3s linear;
+opacity: 0;
+}
+.tr-movie-menu-active button::after {
+left: auto;
+right: 0;
+}
+.tr-movie-menu-active button.active::before,
+.tr-movie-menu-active button.active::after {
+opacity: 1;
+}
+.tr-movie-menu-active button.active {
+color: #fff;
+border-color: #e4d804;
+}
+.tr-movie-menu2-active button.active {
+text-shadow: 0px 3px 24px rgba(228, 216, 4, 0.5);
+}
+.tr-movie-menu2-active button.active {
+  color: #fff;
+  border-color: #e4d804;
+}
+.movie-filter-form input {
+  width: 100%;
+  border: none;
+  background: #12151e;
+  color: #fff;
+  padding: 14px 20px;
+  font-size: 12px;
+  border-radius: 30px;
+  padding-right: 60px;
+  box-shadow: inset 0px 4px 9px 0px rgb(0 0 0 / 25%);
+}
+
+.movie-filter-form button {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  color: #e4d804;
+  padding: 0;
+}
